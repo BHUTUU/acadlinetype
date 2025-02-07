@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\suman\\OneDrive\\Desktop\\AUTOCAD\\acadlinetype\\CopyLineTypeFromEntity\\CopyLineTypeFromEntity.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\suman\\OneDrive\\Desktop\\AUTOCAD\\acadlinetype\\CopyLineTypeFromEntity\\CopyLineTypeFromEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\suman\\OneDrive\\Desktop\\AUTOCAD\\acadlinetype\\CopyLineTypeFromEntity\\CopyLineTypeFromEntity.csproj",
+        "projectName": "CopyLineTypeFromEntity",
+        "projectPath": "C:\\Users\\suman\\OneDrive\\Desktop\\AUTOCAD\\acadlinetype\\CopyLineTypeFromEntity\\CopyLineTypeFromEntity.csproj",
+        "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\suman\\OneDrive\\Desktop\\AUTOCAD\\acadlinetype\\CopyLineTypeFromEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net4.8"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net4.8",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net4.8",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
