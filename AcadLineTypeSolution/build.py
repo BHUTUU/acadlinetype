@@ -23,7 +23,7 @@ if not versions:
 print("The following versions of autocad are available:")
 count=1
 for i in versions:
-    print(f"1 - Autocad {i}")
+    print(f"{count}. AutoCAD {i}")
     count+=1
 selectedIndex=None
 while(not selectedIndex):
