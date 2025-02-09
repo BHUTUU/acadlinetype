@@ -40,7 +40,7 @@
 
 ## Installation
 
-1. Download the latest release (`AcadLineType.dll`) from the [Releases](https://github.com/yourusername/acadlinetype/releases) section.
+1. Download the latest release (`AcadLineType.dll`) from the [Releases](https://github.com/BHUTUU/acadlinetype/releases) section.
 2. Place the `.dll` file in a directory accessible to AutoCAD.
 3. Load the plugin in AutoCAD using the `NETLOAD` command and selecting the `.dll` file.
 4. Use the commands `CopyLinetypeFromEntity` and `Forcereverse` to start using the tool.
