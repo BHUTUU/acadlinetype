@@ -28,6 +28,10 @@ namespace AcadLineTypeSolution
                     return;
                 }
                 string linetype = ent.Linetype;
+                if(linetype.ToUpper() == "BYLAYER") {
+                    Application.ShowAlertDialog("Please make sure linetype of the selected entity is not BYLAYER while copying the linetype.");
+                    return;
+                }
                 LinetypeTable linetypeTable = (LinetypeTable)tr.GetObject(db.LinetypeTableId, OpenMode.ForRead);
                 if (!linetypeTable.Has(linetype))
                 {
@@ -87,6 +91,10 @@ namespace AcadLineTypeSolution
                 if (per.Status != PromptStatus.OK) return;
                 Entity ent = (Entity)tr.GetObject(per.ObjectId, OpenMode.ForWrite);
                 string originalLinetype = ent.Linetype;
+                if(originalLinetype.ToUpper() == "BYLAYER")
+                {
+                    Application.ShowAlertDialog("Please ensure that the selected polyline or line must not have BYLAYER as its linetype.");
+                }
                 string lineTypeNamePatternFormat = @"^(?<text>.+)_copyOf\k<text>$";
                 if(Regex.IsMatch(originalLinetype, lineTypeNamePatternFormat)) {
                     Application.ShowAlertDialog($"Linetype '{originalLinetype}' already reversible using inbuilt reverse command.");
